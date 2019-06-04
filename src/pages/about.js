@@ -31,18 +31,12 @@ export default ({ pageContext: { locale, url, originalPath } }) => {
         path={`/${locale}${originalPath}`}
       />
 
-      <Container>
-        <PageHeader>
-          <FormattedMessage id="more_than_messenger" />
-        </PageHeader>
-      </Container>
-
       <section className="about__promo">
         <div className="about__video">
           <div className="about__video-wrapper">
             <ImageFormatted
-              src="/images/about/team.png"
-              srcSet="/images/about/team@2x.png 2x"
+              src="/images/about/corporate.png"
+              srcSet="/images/about/corporate@2x.png 2x"
               altLangId="more_than_messenger"
             />
           </div>

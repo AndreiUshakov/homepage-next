@@ -16,7 +16,6 @@ addLocaleData(localeData);
 
 export default ({ children, pageContext }) => {
   const { locale = 'en', originalPath, url } = pageContext;
-
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
       <main className="main">
