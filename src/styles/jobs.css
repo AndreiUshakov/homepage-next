@@ -285,7 +285,7 @@
     @media (--laptop-viewport) {
       font-size: 60px;
       line-height: 78px;
-      padding-bottom: 80px;
+      padding-bottom: 90px;
     }
   }
 
@@ -368,6 +368,7 @@
     bottom: -65px;
     background-color: var(--color-primary);
     padding: 40px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
 
     @media (--mobile-viewport) {
       left: 20px;
@@ -435,7 +436,7 @@
   &__quote_mark {
     font-size: 120px;
     height: 80px;
-    line-height: 145px;
+    line-height: 157px;
   }
 
   &__quote_text {
