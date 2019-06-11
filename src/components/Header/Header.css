@@ -9,7 +9,6 @@
   &__col {
     display: flex;
     align-items: center;
-
     @media (--tablet-landscape-viewport) {
       z-index: 1;
     }
@@ -35,10 +34,12 @@
     @media (--tablet-landscape-viewport) {
       display: block;
       margin-left: 30px;
+      font-size: 12.5px;
     }
 
     @media (--laptop-viewport) {
       margin-left: 60px;
+      font-size: 13.5px;
     }
 
     &-list {
@@ -95,6 +96,11 @@
 
       @media (--tablet-landscape-viewport) {
         display: block;
+        font-size: 12.5px;
+      }
+
+      @media (--laptop-viewport) {
+        font-size: 13.5px;
       }
 
       &:hover {
@@ -114,6 +120,7 @@
 
       @media (--tablet-landscape-viewport) {
         display: block;
+        margin-left: 10px;
       }
 
       @media (--laptop-viewport) {
