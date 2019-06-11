@@ -14,13 +14,14 @@
   }
 
   @media (--laptop-viewport) {
-    padding-bottom: 60px;
+    padding-bottom: 90px;
   }
 
   &__wrapper {
     position: relative;
     display: flex;
     align-items: center;
+    margin-top: 21px;
 
     @media (--mobile-viewport) {
       flex-flow: column;
