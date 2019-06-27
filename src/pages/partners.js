@@ -7,7 +7,7 @@ import { Container } from '../components/Container/Container';
 import { PageHeader } from '../components/PageHeader/PageHeader';
 import { Section } from '../components/Section/Section';
 import { Vacancies } from '../components/Vacancies/Vacancies';
-import { ApplyForJob } from '../components/ApplyForJob/ApplyForJob';
+import { ApplyForJobForm } from '../components/ApplyForJobForm/ApplyForJobForm';
 import { CooperateWith } from '../components/CooperateWith/CooperateWith';
 import ImageFormatted from '../components/ImageFormatted';
 import { ContainerFluid } from '../components/ContainerFluid/ContainerFluid';
@@ -101,7 +101,7 @@ export default ({ pageContext: { locale, url, originalPath } }) => {
         <CooperateWith />
       </ContainerFluid>
       <Container>
-        <ApplyForJob />
+        <ApplyForJobForm />
       </Container>
     </Page>
   );
