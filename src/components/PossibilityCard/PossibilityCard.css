@@ -33,6 +33,7 @@
 .content {
   &__icon {
     max-width: 60px;
+    min-height: 60px;
   }
   &__text {
     margin-top: 25px;
